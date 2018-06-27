@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\Cody\coding\c++\ogl\thirdparty\Include;D:\Cody\coding\c++\ogl\LearnOpenGL\LearnOpenGL\include;$(VCInstallDir);$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Cody\coding\c++\ogl\thirdparty\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)\thirdparty\Include;$(SolutionDir)\LearnOpenGL\include;$(VCInstallDir);$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)thirdparty\Libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
