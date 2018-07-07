@@ -123,19 +123,24 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Shader.cpp" />
     <ClCompile Include="src\stb_image.cpp" />
+    <ClCompile Include="src\Texture.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Camera.h" />
     <ClInclude Include="include\Shader.h" />
+    <ClInclude Include="include\Texture.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="resources\shaders\ColorFragment.frag" />
+    <None Include="resources\shaders\LightFragment.frag" />
     <None Include="resources\shaders\SimpleFragment.frag" />
     <None Include="resources\shaders\SimpleVertex.vert" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\awesomeface.png" />
     <Image Include="resources\textures\container.jpg" />
+    <Image Include="resources\textures\container2.png" />
     <Image Include="resources\textures\wall.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

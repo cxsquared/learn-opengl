@@ -30,6 +30,9 @@
     <ClCompile Include="src\Camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Shader.h">
@@ -41,6 +44,9 @@
     <ClInclude Include="include\Camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\shaders\SimpleFragment.frag">
@@ -49,6 +55,8 @@
     <None Include="resources\shaders\SimpleVertex.vert">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="resources\shaders\LightFragment.frag" />
+    <None Include="resources\shaders\ColorFragment.frag" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\textures\wall.jpg">
@@ -58,6 +66,9 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="resources\textures\awesomeface.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\textures\container2.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
